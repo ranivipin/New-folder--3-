@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+
+    /* font-size */
+    --fs-22: 22px;
+    --fs-18: 18px;
+    --fs-70: 70px;
+    --fs-20: 20px;
+    --fs-25: 25px;
+    --fs-50: 50px;
+    --fs-36: 36px;
+    --fs-30: 30px;
+    --fs-16: 16px;
+    --fs-48: 48px;
+    --fs-14: 14px;
+    --fs-96: 96px;
+    --fs-35: 35px;
+    --fs-39: 39px;
+    --fs-72: 72px;
+    --fs-80: 80px !important;
+    /* font-wight */
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+
+/* font-size */
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-96 {
+    font-size: var(--fs-96);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+.fs-35 {
+    font-size: var(--fs-35);
+}
+
+.fs-25 {
+    font-size: var(--fs-25);
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-50 {
+    font-size: var(--fs-50);
+}
+
+.fs-30 {
+    font-size: var(--fs-30);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-39 {
+    font-size: var(--fs-39);
+}
+
+.fs-72 {
+    font-size: var(--fs-72);
+}
+
+.fs-80 {
+    font-size: var(--fs-80);
+}
+
+/* font-weight */
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+
+.ff-Noto {
+    font-family: 'Noto Serif', sans-serif !important;
+}
+
+@media (max-width:768px) {
+    .border-right {
+        border-right: 0;
+    }
+}
+
+@media (max-width:576px) {
+.tweets{
+    font-size: var(--fs-50);
+}
+}

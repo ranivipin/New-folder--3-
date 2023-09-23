@@ -1,0 +1,174 @@
+@import url(root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.color {
+    color: #FF0000;
+}
+
+.color2 {
+    color: #00A106;
+}
+
+.mw-1140 {
+    max-width: 1140px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.bg-color {
+    background-color: #f8f3e4;
+}
+
+.news {
+    border: 2px solid black;
+}
+
+.new {
+    border-left: 2px solid #000000;
+    flex-direction: column;
+
+}
+
+.box {
+    border: 2px solid #000000;
+
+}
+
+.slick-card {
+    border-right: 2px solid black;
+    height: 287px !important;
+}
+
+.border-none {
+    border: none;
+}
+
+.bx-2 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.prev {
+    background: transparent;
+    border: none;
+}
+
+.next {
+    background: transparent;
+    border: none;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.in {
+    border-right: 2px solid #000000;
+}
+
+.to {
+    border-right: 2px solid #000000;
+}
+
+.new1 {
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+
+
+}
+
+.mw-327 {
+    max-width: 327px;
+}
+
+.mw-475 {
+    max-width: 475px;
+}
+
+.pl-8 {
+    padding-left: 8px;
+}
+
+.py-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.min {
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tweets {
+    font-family: 'Perpetua Titling MT', sans-serif;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.btn2 {
+    border: 2px solid #000000;
+    background-color: #FFD600;
+    padding: 10px 12px;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    content: "";
+    font-size: 24px;
+    margin-left: auto;
+    background-image: url(../image/+.png) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../image/-.png) !important;
+    height: 5px;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.bb-2 {
+    border-bottom: 2px solid black;
+}
+
+.accordion-button:focus {
+    border-color: var(--bs-accordion-btn-focus-border-color);
+    outline: 0;
+    z-index: 3;
+    box-shadow: none !important;
+
+}
+
+ul {
+    margin-top: 0 !important;
+}
+
+.accordion {
+
+    --bs-accordion-bg: none !important;
+    background-color: none !important;
+    --bs-accordion-active-bg: none !important;
+
+}
+
+ol li {
+    list-style-type: decimal !important;
+}
